@@ -1,0 +1,16 @@
+[{
+        "question": "What is the full form of WHO?",
+        "correctAnswerIndex": 1,
+        "options": ["World home organization", "World Health organiztion", "Word humadity uthorization"]
+    },
+    {
+        "question": "What is the full form of HTML?",
+        "correctAnswerIndex": 2,
+        "options": ["Hyper test markup languge", "Hyper text mashup laanguage", "Hyper text markup language"]
+    },
+    {
+        "question": "What is the full form of CSS?",
+        "correctAnswerIndex": 0,
+        "options": ["Casacding style sheet", "Class style sheet", "Casper style sheet", "Cost Sale Source"]
+    }
+]

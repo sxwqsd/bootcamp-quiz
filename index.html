@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Quiz</title>
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+
+<body>
+
+    <section id="quizSection">
+        <div class="quiz-header">
+            <div class="highscore">View high scores</div>
+            <div class="time">Time: <span>0</span></div>
+        </div>
+        <div class="quiz-body">
+            <div class="welcome">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related question within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds.
+                </p>
+                <p>
+                    <button class="start-quiz-btn">Start Quiz</button>
+                </p>
+            </div>
+            <div id="qa">
+                <div id="questionContainer">
+                    <h3 id="question"></h3>
+                    <div id="options">
+                    </div>
+                </div>
+                <hr>
+                <div class="answer-status"></div>
+            </div>
+            <div id="qaResult">
+                <h3>All done!</h3>
+                <p class="totalScore">Your final score is <b>0</b></p>
+                <div class="form">
+                    <form id="initilForm">
+                        <label for="">Enter initials</label>
+                        <input type="text" id="initial" required>
+                        <button class="storeResultBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="highScores">
+                <h3>High scores</h3>
+                <ul>
+                </ul>
+                <button class="goBack">Go back</button>
+                <button class="clearHighScore">Clear high scores</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./public/script.js"></script>
+</body>
+
+</html>

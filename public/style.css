@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+}
+
+#quizSection {}
+
+#quizSection .quiz-header {
+    display: block;
+    max-width: 90%;
+    min-height: 30px;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+#quizSection .quiz-header .highscore {
+    float: left;
+    color: #c765ce;
+    font-weight: bold;
+}
+
+#quizSection .quiz-header .time {
+    float: right;
+}
+
+
+/* Quiz body */
+
+#quizSection .quiz-body {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quizSection .quiz-body h1 {
+    font-size: 2.5rem;
+}
+
+#quizSection .quiz-body p {
+    font-size: 1.5rem;
+}
+
+.start-quiz-btn,
+.storeResultBtn,
+.goBack,
+.clearHighScore {
+    background-color: #351b75;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    transition: background 0.1s ease-in;
+}
+
+.start-quiz-btn:hover {
+    background-color: #a81fad;
+}
+
+
+/* Question nswer section */
+
+#quizSection #qa {
+    text-align: left;
+    max-width: 80%;
+    display: none;
+}
+
+#quizSection #qa #options {
+    display: table;
+    max-width: 350px;
+}
+
+#quizSection #qa h3 {
+    font-size: 2rem;
+}
+
+#quizSection #qa #options a {
+    background-color: #351b75;
+    color: #fff;
+    padding: 15px 15px;
+    min-width: 150px;
+    display: table;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.1s ease-in;
+    float: left;
+}
+
+#quizSection #qa #options a:hover {
+    background-color: #a81fad;
+}
+
+#quizSection #qa .answer-status {
+    font-size: 1.3rem;
+    color: #a5a5a5;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#quizSection #qa hr {
+    border: 0;
+    border-top: 2px solid #9c9c9cd9;
+}
+
+
+/* Result section */
+
+#qaResult {
+    text-align: left;
+    display: none;
+}
+
+#qaResult h3,
+#highScores h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+#qaResult p {
+    margin-top: 10px;
+}
+
+#qaResult .form label {
+    font-size: 20px;
+}
+
+#qaResult .form input {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#qaResult .form .storeResultBtn {
+    padding: 9px 20px;
+}
+
+
+/* High scores */
+
+#highScores {
+    text-align: left;
+    display: none;
+}
+
+#highScores ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#highScores li {
+    background-color: #dcdcdc;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#highScores .goBack,
+#highScores .clearHighScore {
+    padding: 9px 15px;
+}
